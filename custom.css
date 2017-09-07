@@ -1,0 +1,27 @@
+.error-block {
+    display: none;
+    color: red;
+}
+
+/*Sets the visual listbar width to 400 px and realigns it above the icon. */
+.jw-skin-seven .jw-overlay .jw-playlist-container {
+    width: 400px;
+    left: -20%;
+}
+
+/* overrides the player settings for how tall the visualplaylist can be. 195px is the about right for a player that is 270px tall, including the controlbar height, and menus. */
+.jwplayer .jw-playlist {
+    height: 195px;
+}
+
+/* Makes it so the list items are left aligned in the visualplaylist */
+.jwplayer .jw-playlist .jw-option {
+    padding: 0 15px;
+    margin: auto;
+    text-align: left;
+}
+
+#content-embed iframe {
+    width: 100% !important;
+    height: 500px !important;
+}
